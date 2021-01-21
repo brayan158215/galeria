@@ -1,0 +1,25 @@
+body{
+    background-color: blue;
+}
+div{
+    margin-top: auto 60px;
+    
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+ul.galeria li{
+    float: left;
+    margin: 0 20px;
+    list-style: none;
+}
+ul.galeria li a img {
+    float:  left;
+    width: 200px;
+}
+ul.galeria li a:hover img{
+    transform: scale(1.5);
+    box-shadow:4px 4px 10px darkolivegreen;
+
+}
